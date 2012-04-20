@@ -148,6 +148,9 @@ def main():
   api = input_api_key()
       
   while True:
+    if reach_limit(api):
+      print "Sorry you have reached the Twitter API rate limiting. May retry later?"
+      break
     start(api)
 
 
