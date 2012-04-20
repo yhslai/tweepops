@@ -1,6 +1,6 @@
 # TweePops
 
-A simple CLI application which recommends something interesting on Twitter to you. You can explore the best links someone around you(or your friends, or any Twitterist) shared.
+A simple CLI application which recommends something interesting on Twitter to you. You can explore the best links someone around you(or your friends, or any Twitterist) are talking about.
 
 It uses [Twitter API](https://dev.twitter.com) through the excellent [Tweepy](https://github.com/tweepy/tweepy) library. And it sort the recommendation links by **RetweetRank**(just as simplified **PageRank** for Twitter). 
 
@@ -32,4 +32,6 @@ If you got this error message:
 It's caused by [Twitter Rate Limiting](https://dev.twitter.com/docs/rate-limiting). You can input API Key to extend your limiting(from 150/hour to 350/hour). Or you can descrese the `links_limit` in `config` file.
 
 
+# Demo
 
+  ![screenshot](https://lh6.googleusercontent.com/-pgiPwmbResg/T5Hl90Sl2gI/AAAAAAAABCE/ZlRW8f__kSs/s912/screenshot9.jpg)
