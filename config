@@ -1,0 +1,6 @@
+[core]
+links_limit = 100 
+damping_factor = 0.3
+
+[display]
+links_display = 10
